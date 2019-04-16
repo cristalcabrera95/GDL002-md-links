@@ -1,4 +1,14 @@
 {
   "name": "md-links",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "description": "buscar y encontrar y verificar links en archivos markdown",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "markdown": "^0.5.0"
+  }
 }
