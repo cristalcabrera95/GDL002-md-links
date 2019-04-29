@@ -1,7 +1,8 @@
-const {validatePath, absolutePath, readFileMd  } = require("../src/mdLink.js")
+const {validatePath,absolutePath,readFileMd, findlinks } = require("../src/mdLink.js")
 
 test("should be a file markdown",()=>{
 expect(validatePath("README.md")).toBe(true);
+expect(validatePath("README.txt")).toBe(false);
 });
 
 test ("should be a absolute path ",()=>{
@@ -12,4 +13,8 @@ test ("should read a file",()=>{
    readFileMd("prueba.md").then((result) => {
      expect(result).toBe("holis a todos");
    })
-   })
+   });
+  //  test(" should extract links", ()=>{
+  //   expect(findlinks("prueba2.md")).toBe("https://desarrolloweb.com/articulos/implementar-promesas-resolve-reject.html,https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_Expressions");
+  //  })
+

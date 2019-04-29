@@ -6,7 +6,7 @@
     "jest": "^24.7.1"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "dependencies": {
     "markdown": "^0.5.0"
