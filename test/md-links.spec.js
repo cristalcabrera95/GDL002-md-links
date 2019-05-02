@@ -10,11 +10,12 @@ test ("should be a absolute path ",()=>{
 });
 
 test ("should read a file",()=>{
-   readFileMd("prueba.md").then((result) => {
+  readFileMd("prueba.md").then((result) => {
      expect(result).toBe("holis a todos");
-   })
-   });
-  //  test(" should extract links", ()=>{
-  //   expect(findlinks("prueba2.md")).toBe("https://desarrolloweb.com/articulos/implementar-promesas-resolve-reject.html,https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_Expressions");
-  //  })
+  })
+});
+
+test(" should extract links", ()=>{
+   expect(findlinks("prueba2.md")).toBe(Array);
+})
 

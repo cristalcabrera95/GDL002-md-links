@@ -1,4 +1,5 @@
 hola 
-
-https://desarrolloweb.com/articulos/implementar-promesas-resolve-reject.html
-https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_Expressions
+[Markdown](https://es.wikipedia.org/wiki/Markdown)
+[Error-404](https://css-tricks.com/thispagedoesntexist)
+[Node.js](https://nodejs.org/)
+[motor de JavaScript V8 de Chrome](https://developers.google.com/v8/)
