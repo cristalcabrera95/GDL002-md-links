@@ -1,7 +1,8 @@
 {
-  "name": "md-links",
+  "name": "cristalcabrera95-md-links",
   "version": "0.1.0",
   "description": "buscar y encontrar y verificar links en archivos markdown",
+  "main": "mdLinks.js",
   "devDependencies": {
     "jest": "^24.7.1"
   },
