@@ -1,11 +1,12 @@
-// const pruebaV1 = require("./mdLink");
-// pruebaV1.readFileMd("prueba2.md");
- const pruebaV2 = require("./mdLink");
- pruebaV2.findlinks("prueba2.md");
-//  const pruebaV3 = require("./mdLink");
-//   pruebaV3.validatePath("prueba2.md");
-//    const pruebaV = require("./mdLink");
-//      pruebaV.ValidateLinks("prueba2.md");
-//      const pruebaV4 = require("./mdLink");
-//      pruebaV4.statusGlobal("prueba2.md");
 
+//  const pathValidate = require("./mdLink")
+//  pathValidate.validatePath("prueba2.md");
+
+// const find = require("./mdLink")
+// find.findlinks("prueba2.md");
+
+//const validate = require("./mdLink")
+// validate.ValidateLinks("prueba2.md");
+
+// const statusG = require("./mdLink")
+// statusG.statusGlobal("prueba2.md");

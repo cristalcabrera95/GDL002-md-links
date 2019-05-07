@@ -68,7 +68,7 @@ function ValidateLinks(pathMd) {
               console.log(
                 `Text: ${textFinder[i]}\n href:${
                   linksFinder[i]
-                }\n File: ${pathMd}\n Response code: ${response.status}\nResponse: ${
+                }\n File: ${pathMd}\n Response code: ${response.status}\n Response: ${
                   response.statusText
                 }\n`,
               );
